@@ -15,7 +15,7 @@ namespace app
             Console.WriteLine("(binary64) Set sign: 1 bit.");
             string sign = Console.ReadLine();
 
-            Console.WriteLine("(binary64) Set exponent, 8 bits.");
+            Console.WriteLine("(binary64) Set exponent, 11 bits.");
             string exponent = Console.ReadLine();
 
             Console.WriteLine("(binary64) Set mantissa / fraction, 52 bits.");
